@@ -2,7 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
 <!--    <TextView-->
 <!--        android:id="@+id/Title"-->
@@ -21,13 +23,12 @@
 
     <ImageView
         android:id="@+id/mars"
-        android:layout_width="250dp"
-        android:layout_height="180dp"
-        android:layout_marginTop="5dp"
+        style="@style/ImageView_Mars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/mars" />
 <!--        app:layout_constraintTop_toBottomOf="@id/Title"-->
 
@@ -36,12 +37,13 @@
         android:id="@+id/Title_image"
         android:layout_width="350dp"
         android:layout_height="35dp"
-        android:textAlignment="center"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="177dp"
-        android:background="@color/purple"
+        android:background="@color/orange"
+        android:fontFamily="@font/arbutus"
         android:hint="Title"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/date" />
@@ -51,9 +53,10 @@
         android:layout_width="190dp"
         android:layout_height="25dp"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="177dp"
-        android:background="@color/purple"
+        android:background="@color/orange"
+        android:fontFamily="@font/arbutus"
         android:hint="Date"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"

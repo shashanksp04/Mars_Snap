@@ -2,8 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Pokemon_Viewer" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/yellow</item>
+        <item name="colorSecondary">@color/red</item>
     </style>
 
     <style name="Theme.Pokemon_Viewer" parent="Base.Theme.Pokemon_Viewer" />
+
+
+    <style name="ImageView_Mars">
+    <item name="android:layout_width">250dp</item>
+    <item name="android:layout_height">180dp</item>
+    <item name="android:layout_marginTop">15dp</item>
+    </style>
 </resources>
