@@ -8,7 +8,7 @@ Time spent: **1.2** hours spent in total
 
 ## Summary
 
-**MarsSnap** is an android app that **This is an app that displays a scrollable list of pictures taken by the Curiosity Rover of NASA on MARS using the NASA's API")**
+**MarsSnap** is an android app that **This is an app that displays a scrollable list of pictures taken by the Curiosity Rover of NASA on MARS using the NASA's API**
 
 If I had to describe this project in three (3) emojis, they would be: **😀😀😀**
 
